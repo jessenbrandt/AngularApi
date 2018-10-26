@@ -1,0 +1,25 @@
+<div class="fade"></div>
+<div class="starwars">
+  <div class="crawl">
+    <h1 class="title">In a Classroom Far Far Away. Somewhere called Eleven Fifty. The Star Wars battle was Assigned by
+      the one called Darth Tom. Many, many struggles were faced by young Padawan Jess. As she persevered her abilites
+      grew stronger. </h1>
+  </div>
+</div>
+<form class="search">
+  <select #api class="select">
+    <option value="people">People</option>
+    <option value="starships">Starship</option>
+    <option value="films">Films</option>
+  </select>
+  <input #input class="input">
+  <button type="button" class="button" (click)="getAPI(api.value, input.value)">The Force</button>
+</form>
+
+      <div *ngFor="let result of results" class="persondata">
+        <h4>{{result | json}}</h4>
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Poller+One');
+</style>

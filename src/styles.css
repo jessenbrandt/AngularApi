@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: url(https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2efbd126389f0ea2ce0db8c507919e1b&auto=format&fit=crop&w=500&q=60);
+    cursor: pointer;
+}
+
+.search {
+    text-align: center;
+    margin-top: -50%;
+    cursor: pointer;
+}
+
+.select{
+    height: 40px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.input {
+    height: 34px;
+    width: 300px;
+    font-size: 15pt;
+    cursor: pointer;
+
+}
+
+.button {
+    height: 40px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.star-wars {
+    /* Flexbox to center the entire element on the screen */
+    display: flex;
+    justify-content: center;
+    /* This is a magic number based on the context in which this snippet is used and effects the perspective */
+    height: 800px;
+    /* This sets allows us to transform the text on a 3D plane, and is somewhat a magic number */
+    perspective: 400px;
+    /* The rest is totally up to personal styling preferences */
+    font-size: 50pt;
+    font-style: italic;
+    font-family: 'Poller One', cursive;
+    color: rgb(214, 197, 44);
+    font-size: 500%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+    text-align: justify;
+  }
+
+  .crawl > .title {
+    font-size: 90%;
+    text-align: center;
+  }
